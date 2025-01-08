@@ -1,0 +1,11 @@
+/* bugSolution.css */
+div {
+  background-color: lightblue;
+  border: 1px solid black;
+  width: calc(50% - 10px); /* Correct usage */
+  height: 100px;
+  margin-bottom: 10px;
+}
+div.incorrect {
+  width: calc(10px - 50%); /* Incorrect usage */
+}
